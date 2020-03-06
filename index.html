@@ -1,0 +1,100 @@
+    
+    <html>
+      <head>
+        <title>Insurance  Policy form</title>
+       
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      </head>
+    
+      <body>
+        <SECTION style="background:url(grey-background.jpg); background-size:cover; background-position:center;">
+          <div class="left-part">
+          <div class="container well"style="width: 102%;color: #f9f9f9;background-color: #9c9595;"";
+">
+          <div align="center">
+                       <h1>Sample Registration Form.</h1>
+                        
+                        <hr>
+          <div align="center" >
+                      <p><h3>Please Enter your Insurance details.</h3></p>
+          </div></div></div></div></div>
+                     <form action="insert.php" method="post">
+            <div class="title">
+               <h2></h2></div>
+                <div class="container">	
+           
+                <div class="row"> 
+                       <div class="col-md-4"><span><strong>First Name</strong></span>
+                                 <input type="text" id="fname" class="form-control " name="fname" placeholder="First name " required>  <br>
+                         </div>
+                 </div>
+                 <div class="row">
+                        <div class="col-md-4"><span><strong>Last Name</strong></span>
+                                <input type="text" id="lname" name="lname" class="form-control " placeholder="Last name " required>  <br>
+                         </div>
+                 </div>
+           <div class="row">
+           <div class="col-md-4">  <span><strong> Mobile Number</strong></span>
+             		 <input type="number" id="phnum" name="phnum" class="form-control " placeholder="Mobile number" maxlength="10"minlength="10" required><br>
+               </div></div>
+            <div class="row">
+            <div class="col-md-4"> <span><strong>Policy Number</strong></span>
+            		  <input type="number" id="polnum" name="polnum" class="form-control " placeholder="Policy Number" maxlength="8" required><br>
+              </div></div>
+           <div class="row">
+           <div class="col-md-4">   <span><strong>Address</strong></span>
+            		  <input type="text" id="add" name="add" class="form-control "placeholder="Address" required ><br>
+               </div></div>
+            <div class="row">
+            <div class="col-md-4"> <span><strong>Pincode</strong></span>
+             		 <input type="number" id="pin" name="pin" class="form-control "placeholder="pincode" maxlength="6"minlength="6" required><br> 
+              </div></div>
+          <div class="row">
+          <div class="col-md-4">
+               <span><strong>Date of birth</strong></span>  
+                <input type="date"  placeholder="Date of birth" id="date" name="date" class="form-control"  required><br><br> 
+          
+              </div>
+              </div>
+          <div class="row">
+              <div class="col-md-4">
+                   <span><strong>Email</strong></span>  
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Email" required><br>
+               </div> 
+           </div> 
+         <div class="row">
+                <div class="col-md-4">
+                 <span><strong>Payable</strong></span><br>
+                    <select id="payable" class="form-control" name="payable" >
+                    <option >select</option>
+                    <option value="1">Daily</option>
+                    <option value="2">Weekly</option>
+                    <option value="3">Monthly</option>
+                    <option value="4">Quaterly</option>
+                    <option value="5">Half Yearly</option>
+                    <option value="6">Anually</option>
+                  </select>
+                  
+                </div>
+            </div>
+            </div>
+           
+            <div  align="center">
+            <div class="container">	
+               <button type="submit" class="btn btn-success" style="
+    color: #e8e8e8;
+    /* size: 742px; */
+    width: 113px;
+    height: 43px;
+">submit</button>
+   
+            </div> </div> </div>
+          </form>
+       </SECTION>
+      </body>
+    </html>
+    
